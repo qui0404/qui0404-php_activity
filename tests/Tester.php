@@ -40,7 +40,7 @@ class Tester extends \PHPUnit\Framework\TestCase
     {
 
             $this->testSetup();
-            $this->assertEquals($this->test->getCost(), "$1500");
+            $this->assertEquals($this->test->getCost(), "$1300");
 
     }
 
