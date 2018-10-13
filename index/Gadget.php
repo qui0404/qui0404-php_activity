@@ -92,8 +92,7 @@ class Gadget {
 	}
 	
 	/** Implement the getCost function here. */
-	
-	/** Implement the getManufacturer function here. */
+
 	
 	/** Returns the name of the gadget */
     public function getName()
@@ -112,8 +111,20 @@ class Gadget {
 	}
 
 	/** Add the getCost method below */
+	   	public function getCost()
+	{
+
+	    	return $this->cost;
+
+	}
 
 	/** Add the getManufacturer method below */
+	   	public function getManufacturer()
+	{
+
+	    	return $this->manufacturer;
+
+	}
 
 	/** Returns the link of the gadget */
 	public function getLink()

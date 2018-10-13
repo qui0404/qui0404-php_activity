@@ -36,7 +36,10 @@
     <aside id="left_side">
         <ul><b>Type </b><br/><p><?php echo $G->getName(); ?></p></ul>
 		<!-- Add a ul element that displays the manufacturer of the current gadget. -->
+		<ul><b>Type </b><br/><p><?php echo $G->getManufacturer(); ?></p></ul>
 		<!-- Add a ul element that displays the cost of the current gadget. -->
+		<ul><b>Type </b><br/><p><?php echo $G->getCost(); ?></p></ul>
+		
         <ul><b>Amazon </b><br/><a href="<?php $G->getLink(); ?>"><?php echo $G->getModel(); ?></a></ul>
     </aside>
 
