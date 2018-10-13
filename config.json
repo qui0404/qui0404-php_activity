@@ -1,5 +1,5 @@
 {
-  "language": "select a language",
+  "language": "php",
   "stages": [
     "static",
     "unit",
