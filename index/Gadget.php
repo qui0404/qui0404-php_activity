@@ -112,8 +112,20 @@ class Gadget {
 	}
 
 	/** Add the getCost method below */
+	   	public function getCost()
+	{
+
+	    	return $this->cost;
+
+	}
 
 	/** Add the getManufacturer method below */
+	   	public function getManufacturer()
+	{
+
+	    	return $this->manufacturer;
+
+	}
 
 	/** Returns the link of the gadget */
 	public function getLink()
